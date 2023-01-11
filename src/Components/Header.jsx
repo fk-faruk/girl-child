@@ -15,7 +15,11 @@ function Header() {
           style={{ color: "black", backgroundColor: "white" }}
           expand={expand}
         >
-          <Container fluid>
+          <Container
+            fluid
+            className=""
+            style={{ marginLeft: "40px", marginRight: "40px" }}
+          >
             <p href="#" className="font">
               mentors
             </p>
